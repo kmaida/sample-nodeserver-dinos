@@ -1,20 +1,20 @@
 {
   "name": "sample-nodeserver-dinos",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Sample node server with dinosaurs!",
   "repository": "https://github.com/kmaida/sample-nodeserver-dinos",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server"
   },
   "author": "Kim Maida",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "body-parser": "^1.17.1",
-    "cors": "^2.8.3",
-    "express": "^4.15.2",
-    "lodash": "^4.17.4"
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.5"
   }
 }

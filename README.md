@@ -48,4 +48,4 @@ The following public `GET` requests are currently available:
 }
 ```
 
-MIT license
+[MIT license](LICENSE)
